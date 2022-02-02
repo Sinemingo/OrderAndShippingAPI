@@ -36,6 +36,7 @@ namespace OrderAndShippingAPI.Data.Concrete
         public UnitOfWork(OrderAndShippingContext context)
         {
             _context = context;
+            _context.MigrationUpdate();
         }
       
 

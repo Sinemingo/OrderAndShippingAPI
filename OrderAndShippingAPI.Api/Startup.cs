@@ -41,8 +41,8 @@ namespace OrderAndShippingAPI.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<OrderAndShippingContext>(option =>
-            option.UseSqlServer(Configuration.GetConnectionString("LokalDB"))
-            );
+            option.UseSqlServer(Configuration.GetConnectionString("LokalDB"),
+            option=>option.MigrationsAssembly("OrderAndShippingAPI.Data")));
 
             services.AddControllers();
 
@@ -125,7 +125,6 @@ namespace OrderAndShippingAPI.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            //OrderAndShippingContext.MigrationUpdate();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

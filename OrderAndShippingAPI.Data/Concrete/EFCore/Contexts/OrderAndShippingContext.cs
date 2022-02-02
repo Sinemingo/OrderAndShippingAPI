@@ -11,19 +11,27 @@ namespace OrderAndShippingAPI.Data.Concrete.EFCore.Contexts
 {
     public class OrderAndShippingContext:DbContext
     {
-        public OrderAndShippingContext()
-        {
-        }
+   
+        private static string _connString;
+        public static DbContextOptions<OrderAndShippingContext> _option;
 
         public OrderAndShippingContext(DbContextOptions<OrderAndShippingContext> options) : base(options)
         {
+            _option = options;
+            foreach (var item in options.Extensions)
+            {
+                if (item is Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal.SqlServerOptionsExtension _item)
+                {
+                    _connString = _item.ConnectionString;
+                }
+            }
+        }
 
-        }        
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlServer(
-        //        @"Server=DESKTOP-BSDG0CD;Database=OrderAndShipping;Trusted_Connection=True;MultipleActiveResultSets=True;");
-        //}
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(_connString);
+        }
+
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
@@ -33,20 +41,20 @@ namespace OrderAndShippingAPI.Data.Concrete.EFCore.Contexts
         public DbSet<ShippingCompany> ShippingCompanies { get; set; }
 
 
-        //public static void MigrationUpdate()
-        //{
-        //    try
-        //    {
-        //        using (var db = new OrderAndShippingContext())
-        //        {
-        //            db.Database.Migrate();
-        //        }
-        //    }
-        //    catch (Exception err)
-        //    {
-        //        throw new Exception(err.Message, err);
-        //    }
-        //}
+        public void MigrationUpdate()
+        {
+            try
+            {
+                using (var db = new OrderAndShippingContext(_option))
+                {
+                    db.Database.Migrate();
+                }
+            }
+            catch (Exception err)
+            {
+                throw new Exception(err.Message, err);
+            }
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CategoryMap());
