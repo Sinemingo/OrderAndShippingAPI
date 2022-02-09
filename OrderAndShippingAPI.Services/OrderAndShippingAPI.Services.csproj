@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderAndShippingAPI.Data\OrderAndShippingAPI.Data.csproj" />
+    <ProjectReference Include="..\OrderAndShippingAPI.Entities\OrderAndShippingAPI.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

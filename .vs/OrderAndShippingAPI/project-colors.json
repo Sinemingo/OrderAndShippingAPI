@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d456ba0d-a3f0-46ad-9336-46a3fddf214d": {
+      "ProjectGuid": "d456ba0d-a3f0-46ad-9336-46a3fddf214d",
+      "DisplayName": "OrderAndShippingAPI.Data",
+      "ColorIndex": 0
+    },
+    "91662eb5-ccdf-4ca3-b99b-078bd57de46b": {
+      "ProjectGuid": "91662eb5-ccdf-4ca3-b99b-078bd57de46b",
+      "DisplayName": "OrderAndShippingAPI.Mvc",
+      "ColorIndex": 1
+    },
+    "ba817ee9-3b66-4186-833b-3e2f05a3fcd9": {
+      "ProjectGuid": "ba817ee9-3b66-4186-833b-3e2f05a3fcd9",
+      "DisplayName": "OrderAndShippingAPI.Services",
+      "ColorIndex": 2
+    },
+    "befaccea-310b-477e-be65-4ced7c1a1756": {
+      "ProjectGuid": "befaccea-310b-477e-be65-4ced7c1a1756",
+      "DisplayName": "OrderAndShippingAPI.Api",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "dd2909dc-1403-40a6-9dca-dd46598fab50": {
+      "ProjectGuid": "dd2909dc-1403-40a6-9dca-dd46598fab50",
+      "DisplayName": "OrderAndShippingAPI.Entities",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

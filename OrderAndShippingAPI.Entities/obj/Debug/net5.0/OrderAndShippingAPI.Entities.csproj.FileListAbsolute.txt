@@ -1,0 +1,12 @@
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\bin\Debug\net5.0\OrderAndShippingAPI.Entities.deps.json
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\bin\Debug\net5.0\OrderAndShippingAPI.Entities.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\bin\Debug\net5.0\ref\OrderAndShippingAPI.Entities.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\bin\Debug\net5.0\OrderAndShippingAPI.Entities.pdb
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.AssemblyInfoInputs.cache
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.AssemblyInfo.cs
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.csproj.CoreCompileInputs.cache
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\ref\OrderAndShippingAPI.Entities.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.pdb
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Entities\obj\Debug\net5.0\OrderAndShippingAPI.Entities.csproj.AssemblyReference.cache

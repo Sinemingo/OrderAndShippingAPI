@@ -1,0 +1,17 @@
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.csproj.AssemblyReference.cache
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.AssemblyInfoInputs.cache
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.AssemblyInfo.cs
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.csproj.CoreCompileInputs.cache
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Services.deps.json
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Services.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\ref\OrderAndShippingAPI.Services.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Services.pdb
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Data.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Entities.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Data.pdb
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\bin\Debug\net5.0\OrderAndShippingAPI.Entities.pdb
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.csproj.CopyComplete
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\ref\OrderAndShippingAPI.Services.dll
+C:\Users\sinem\source\repos\OrderAndShippingAPI\OrderAndShippingAPI.Services\obj\Debug\net5.0\OrderAndShippingAPI.Services.pdb
